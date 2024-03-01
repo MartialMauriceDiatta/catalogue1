@@ -17,8 +17,8 @@ import com.example.catalogue.services.ProduitService;
 @RequestMapping("/api/catalogues")
 //@RequiredArgsConstructor
 public class ProduitController {
-	@Autowired
- private ProduitService produitService;
+ 
+    private ProduitService produitService;
 
 // Méthode GET pour récupérer toutes les produits
     @GetMapping("/produits")

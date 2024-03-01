@@ -17,8 +17,8 @@ import com.example.catalogue.services.DepenseService;
 @RequestMapping("/api/catalogues")
 //@RequiredArgsConstructor
 public class DepenseController {
-@Autowired
- private DepenseService depenseService;
+ 
+    private DepenseService depenseService;
 
 
 // Méthode GET pour récupérer toutes les Depenses
